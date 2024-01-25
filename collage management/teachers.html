@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 500px;
+            height: 500px;
+        }
+        button{
+            padding: 5px;
+            margin: 40px;
+            border: 2px black solid;
+            background-color: red;
+    }
+    a{
+        text-decoration-line: none;
+        color: white;
+
+    }
+ button:hover{
+        border: 3px chartreuse solid;
+    }
+        body{
+            background-color: black;
+            background-repeat: no-repeat;
+           background-size: cover;
+           background-attachment: fixed;
+        }
+    form{
+        transform: translate(550px);
+        width: 300px;
+        height: 500px;
+        color:white;
+        background-color: black;
+        text-align: center;
+        border-radius: 5%;
+
+
+    }
+    form:hover{
+        border: 3px chartreuse solid;
+    }
+    </style>
+</head>
+<body>
+     <nav>
+    <button><a href="./batchs.html">BATCHS</a></button>
+    <button><a href="./session.html">SESSION TIMMING</a></button>
+    <button><a href="./holiday.html">HOLIDAYLIST</a></button>
+</nav> <br><br><br>
+    
+        <form>
+            <label for="textfname">Firstname*</label> <br>
+            <input type="text" placeholder="firstname"> <br><br>
+            <label for="textlname">Lastname*</label> <br>
+            <input type="text" placeholder="lastname"> <br><br>
+            <label for="phoneno">Number*</label> <br>
+            <input type="number" placeholder="phonenumber"> <br><br>
+            <label for="email">MailID*</label> <br>
+            <input type="email" placeholder="emailid"> <br><br>
+            <label> Gender</label> <br> <br>
+            <input type="radio">
+            <label> female</label> <br><br>
+            <input type="radio">
+            <label> male</label> <br><br>
+            <input type="radio">
+            <label> others</label><br><br>
+            <label> I agree</label>
+            <input type="checkbox"> <br> <br>
+            <input type="submit" value="SUBMIT">
+        </form>
+    
+    
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            padding: 5px;
+            margin: 40px;
+            border: none;
+        background-color: aquamarine;
+    }
+    a{
+        text-decoration-line: none;
+    }
+        /* fieldset{
+            width: 500px;
+            height: 500px;
+        } */
+        body{
+            background-image: linear-gradient(to right, yellow ,lightseagreen);
+            background-repeat: no-repeat;
+           background-size: cover;
+           background-attachment: fixed;
+           background-blend-mode: 0%;
+        }
+        nav{
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    font-size: x-large;
+}
+    </style>
+</head>
+<body> 
+    
+    <button><a href="./project.html">HOME</a></button>
+    <button><a href="./test.html">TEST</a></button>
+    <button><a href="./result.html">RESULT</a></button>
+    <button><a href="./online.html">ONLINEPAYMENT</a></button>
+    <nav>
+    <fieldset> 
+        <legend>Online Transaction</legend>
+        <form> 
+            <label for="textname"> First name*</label> <br>
+            <input type="text" placeholder="firstname"> <br><br>
+            <label for="textname"> Last name*</label> <br>
+            <input type="text" placeholder="lastname"> <br><br>
+            <label for="Number"> PhoneNumber*</label><br>
+            <input type="number" placeholder="phonenumber"> <br><br>
+            <label for="Email"> EmailId*</label> <br>
+            <input type="email" placeholder="emailid"> <br><br>
+            <label> payment methods:</label> <br><br>
+            <input type="radio">
+            <label> Card</label>
+            <input type="radio">
+            <label> Netbanking</label>
+            <input type="radio">
+            <label> Cheqe</label>
+          <br><br>
+            <label> I agree</label>
+            <input type="checkbox"> <br> <br>
+            <label>Enter Amount</label>
+                <input type="number"> <br> <br>
+            <input type="submit" value="SUBMIT">
+        </form>
+    </fieldset>
+    </nav>
+</body>
+</html>

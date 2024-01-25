@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+h1{
+   display: inline;
+   text-decoration-line: underline;
+}
+h2{
+   text-align: center;
+   font-style: oblique;
+       font-size: xx-large;
+
+}
+table{
+           border: 2px solid black;
+           border-collapse: collapse;
+       }
+       td{
+           border: 2px solid black;
+       }
+       body{
+           background-image: url(./folder/back.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-attachment: fixed;
+           background-blend-mode: 0%;
+       }
+       #as{
+           transform: translate(1200px,0px);
+       }
+       #aru{
+           font-size: 60px;
+           padding-bottom: 20px;
+           text-decoration-color: brown;
+           color: darkolivegreen;
+           text-shadow: 0px 2px lightseagreen ,0px 5px lightblue;
+           /* transform: translate(20px,20px); */
+            
+       }
+       thead{
+font-size: 30px;
+       }
+        #shree{
+           border:black 2px solid;
+           border-left: black 2px solid;
+           border-right: black 2px solid;
+       }
+
+.content{
+           visibility: hidden;
+       }
+       .cont:hover .content{
+           visibility: visible;
+       }
+       body{
+        background-image: linear-gradient(to right, yellow ,lightseagreen);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-attachment: fixed;
+       }
+       nav{
+       border: 2px black solid;
+       padding: 20px;
+       background-color: rgb(96, 171, 96);
+   }
+   button{
+           background: none;
+           border-width: 0px;
+           font-size: 20px;
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:darkviolet; 
+           word-spacing: 15px;
+           gap: 20px;
+       }
+   button:hover{
+       color:green;
+   }
+   a{
+       text-decoration-line:  none;
+
+   }
+   a:hover{
+       color: greenyellow;
+   }
+   span{
+       width:600px ;
+       height: 100px;
+      
+   }
+   </style>
+</head>
+<body>
+   <nav>
+       <span>
+        <img src="C:\Users\cs2k3\Downloads\logo_4.png" alt="" width="100px" height="60px">
+    <button > <a href="./project.html">HOME</a></button>
+    <button > <a href="./academics.html">ACADAMICS</a></button>
+    <button > <a href="./Admission.html">ADMISSION</button>
+    <button > <a href="./Gallery.html">GALLERY</a></button>
+    <div class="cont">
+       <button>LOGIN</button> 
+        <div class="content">
+            <button > <a href="./student.html">StudentLogin </a></button> 
+            <button> <a href="./teachers.html">TeacherLogin</a></button>
+
+        </div>
+
+    </div>
+    <div id="as">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+</span> 
+</nav>
+<div>
+<img src="C:\Users\cs2k3\Downloads\logo_4.png" alt="" width="300px" height="200px">
+<h1 id="aru">ARUNA COLLEGE OF ENGENEEARING </h1>
+</div>
+    <section>
+      <h3> <div style="padding: 15px; font-size: 1.4rem; font-weight: 600; text-align: center; border-bottom: 1px solid #370bdb;">ADMISSION ENQUIRY 2024-25</div></h3>
+        <div class="row" style="float:right;">For Enquiry call on : 9448574037 | 9886943625 | 9481801492 | 8970825972 | 9448713918</div> <br><br>
+        <div class="row" style="background-color:antiquewhite; padding:10px; margin:auto;border-radius:10px;">
+            <div class="col-md-6">
+                <div class="col-md-12">
+                <div class="form-group">
+                    <label for="txtName">Name *</label> <br><br>
+                    <input name="ctl00$BodyContaint$txtName" type="text" id="BodyContaint_txtName" class="form-control" placeholder="Enter Name">
+                    <span id="BodyContaint_RequiredFieldValidator1" style="color:Red;visibility:hidden;">Required!</span>
+                </div>
+            </div> <br><br>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="txtEmail">Email *</label> <br><br>
+                    <input name="ctl00$BodyContaint$txtEmail" type="email" id="BodyContaint_txtEmail" class="form-control" placeholder="Enter Email">
+                    <span id="BodyContaint_RequiredFieldValidator2" style="color:Red;visibility:hidden;">Required!</span>
+                </div>
+            </div><br><br>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="txtContact">Contact No *</label> <br><br>
+                    <input name="ctl00$BodyContaint$txtContact" type="tel" maxlength="10" id="BodyContaint_txtContact" class="form-control" placeholder="Enter Mobile">
+                    <span id="BodyContaint_RequiredFieldValidator3" style="color:Red;visibility:hidden;">Required!</span>
+                </div>
+            </div><br><br>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="txtCourse">Course *</label> <br><br>
+                    <input name="ctl00$BodyContaint$txtCourse" type="text" id="BodyContaint_txtCourse" class="form-control" placeholder="Enter Course Name">
+                    <span id="BodyContaint_RequiredFieldValidator4" style="color:Red;visibility:hidden;">Required!</span>
+                </div>
+            </div><br><br>
+            <div class="col-md-12">
+                <div class="form-group"> 
+                    <label for="txtMessage">Message *</label> <br><br>
+                    <textarea name="ctl00$BodyContaint$txtMessage" rows="2" cols="20" id="BodyContaint_txtMessage" class="form-control" placeholder="Enter Message"></textarea>
+                    <span id="BodyContaint_RequiredFieldValidator5" style="color:Red;visibility:hidden;">Required!</span>
+                </div>
+            </div> <br><br>           
+            <div class="col-md-12">
+                <div class="form-group" style="text-align:center;">
+                    <input type="submit" name="ctl00$BodyContaint$btnSubmit" value="Submit" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$BodyContaint$btnSubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="BodyContaint_btnSubmit" class="btn btn-primary btn-lg" style="width:180px;">
+                </div>
+            </div>
+            </div><br><br>
+    </section>
+</body>
+</html>
